@@ -1,0 +1,91 @@
+@media (max-width:991px){
+    /* ================
+    Navbar-css start 
+    ================ */
+    .navbar .navbar-brand {
+       position: static !important;
+       transform: skew(0deg);
+    }
+    .navbar .navbar-brand  img{
+       transform: skew(0deg) !important;
+        -webkit-transform: skew(0deg);
+        
+    }
+    .navbar{
+        top: 0 !important;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        border-radius: 0;
+        color: var(--brandColor);
+        border: 1px solid #fff;
+        background: #3a3a3a;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    /*================
+     banner css start 
+     ============== */
+    .bg1 h3::before {
+        display: none;
+    }
+    .bg1 h3::after{
+        display: none;
+    }
+    .bg1 h1::before,
+    .bg1 h1::after{
+        display: none;
+        
+    }
+    .bg1 p::before,
+    .bg1 p::after{
+        display: none;
+        
+    }
+    /*====================
+     about-section css start 
+    =======================*/
+    #about .about-text p {
+         padding: 0px 1px !important;
+    }
+    .card-text {
+        font-size: 11px;
+
+    }
+    .membership-item.text-center {
+        margin-bottom: 40px !important;
+    }
+    #routine .routine-tab .tab-content ul li {
+        width: 49%;
+        
+    }
+    #brand .partner-container .partner-item {
+        margin: 0 15px;
+    }
+}
+
+@media(max-width:575px){
+    .team-item {
+        margin-right: 15px !important;
+        margin-left: 15px !important;
+
+    }
+    #testimoinal .testimoinal-bg .testimoinal-item {
+        margin: 0 15px !important;
+    }
+    #routine .routine-tab .nav .nav-item {
+        width: 100%;
+    }
+    #routine .routine-tab .tab-content ul li {
+        width: 100%;
+    }
+    #routine .routine-tab .tab-content ul li {
+        width: 100%;
+    }
+    
+    
+
+}
